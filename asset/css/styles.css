@@ -1,0 +1,136 @@
+.main{
+    background-color: var(  --color-one);
+    height: 1100px;
+    width: 100%;
+}
+
+
+.inner-wrap{
+    display: flex;
+    margin-left: 176px;
+
+}
+.inner-content-right{
+    display: flex;
+    flex-direction: column;
+}
+.inner-name{
+    margin-left: 46px;
+}
+.inner-name p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 76px;
+}
+.inner-job{
+    margin-left: 46px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: -35px;
+    margin-bottom: -51px;
+}
+.inner-list ul li{
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 70%;
+    margin-bottom: -29px;
+}
+.inner-list ul li p{
+    margin-left: 10px;
+}
+.inner-imagie{
+    height: 208px;
+    width: 195px;
+    background-color: white;
+    border-radius: 13%;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 74px;
+}
+.inner-imagie>img{
+ height: 200px;
+ width: 200px;
+ border-radius: 10%;
+ padding-top: 5px
+}
+
+
+.inner-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 151px;
+}
+.inner-listt ul li{
+    display: flex;
+    color: white;
+    opacity: 100%;
+}
+.inner-listt ul li p{
+    margin-right: 9px;
+}
+.title-main{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin-left: 45px;
+}
+.inner-right{
+    background-image: url(../imagie/background.jpg);
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 719px;
+    margin-top: 213px;
+    border-radius: 5%;
+    position: static;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    margin-top: -214px;
+
+}
+.histor-self{
+    
+}
+.histor-self p,.ketqua p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+.diem table tr:nth-child(1){
+    margin-top: 10px;
+    background-color: var(--color-two);
+}
+.diem table{
+    border-collapse: collapse;
+}
+.diem table th{
+border: 1px solid var(--color-two);
+}
+.diem table tr td p{
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.diem table tr:nth-child(2) th{
+    text-align: left;
+}
+.diem table tr:nth-child(3) p,.diem table tr:nth-child(4) p,
+.diem table tr:nth-child(5) p,.diem table tr:nth-child(6) p,
+.diem table tr:nth-child(7) p,.diem table tr:nth-child(8) p{
+    text-align: left;
+    color: black;
+    font-weight: 100;
+}
+.diem{
+    margin-left: 25px;
+}
